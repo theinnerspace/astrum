@@ -3915,3 +3915,7 @@ section > div.image > video {
 	overflow: hidden;
 	object-fit: cover;
 }
+
+.hash {
+	font-family: monospace;
+}
