@@ -3913,7 +3913,7 @@ section > div.image > video {
 	width: inherit;
 	height: inherit;
 	overflow: hidden;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .hash {
