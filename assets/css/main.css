@@ -3880,7 +3880,7 @@ input, select, textarea {
 		/*background-size: 100% 100%;*/
 	}
 
-		#intro p {
+		#intro p, #about p {
 			font-size: 1.25em;
 		}
 
