@@ -6,7 +6,7 @@ Each NFT has been sold for 0.03ETH. The payouts have been aggregated in 1 transa
 
 | author         | object                                                                           | eth & trx                                                                                                                                |
 | -------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Astrobin       | All                                                                              |
+| Astrobin       | All                                                      |                       |
 | KuriousGeorge  | [M1](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/1)     | []()                                                                                                                                     |
 | CoFF           | [M2](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/2)     | []()                                                                                                                                     |
 | Nurinniska     | [M3](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/3)     | [0x2315f2a474e4ed2d77c545d0db39841bf5718f45](https://etherscan.io/tx/0x6c5331d5d4e4de92b475787d05d32e2e41e5a9686df28e74502ae02d5a992b69) |
@@ -112,7 +112,7 @@ Each NFT has been sold for 0.03ETH. The payouts have been aggregated in 1 transa
 | jtrezzo        | [M103](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/103) | []()                                                                                                                                     |
 | anismo         | [M104](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/104) | []()                                                                                                                                     |
 | NASA/ESA       | [M105](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/105) | []()                                                                                                                                     |
-| jeremy.wiggins | [M106](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/106) | []()                                                                                                                                     |
+| jeremy.wiggins | [M106](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/106) | [0xbae8893feef988df82c8acb8d689e07e9d35725a](https://etherscan.io/tx/0x897540fb04e893cfb1d61a1a7bfe019c6887fc2d7ef6ae95aa32838f49e41e22) |
 | jmacon         | [M107](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/107) | []()                                                                                                                                     |
 | dmkusz         | [M108](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/108) | []()                                                                                                                                     |
 | plane          | [M109](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/109) | [0xAF781697E1166A8AA5cd8fD6CE9dfb8F099e92f9](https://etherscan.io/tx/0x94d4df64f0320f8eb84e6d46c8dc5ca4401cc11748334a4168d7c606a3890319) |
