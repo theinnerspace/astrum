@@ -5,8 +5,8 @@
 Each NFT has been sold for 0.03ETH. The payouts have been aggregated in 1 transaction per author. Not all ethereum wallet addresses have been sent to us yet, we will progressively pay as soon as we receive them.
 
 | author         | object                                                                           | eth & trx                                                                                                                                |
-| -------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Astrobin       | All                                                      |                       |
+| -------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | 
+| Astrobin       | All                                                                              | [0x1f56c5cd799bd12af67c9f6f1fbe3862b32ef742](https://etherscan.io/tx/0x2eb3169ac4feaa5f35cfecfceaec476098de20f7069efcd3fb8a01e071f375ce)
 | KuriousGeorge  | [M1](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/1)     | []()                                                                                                                                     |
 | CoFF           | [M2](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/2)     | []()                                                                                                                                     |
 | Nurinniska     | [M3](https://opensea.io/assets/0x33c0de6e17862a79a4f7273adf105cf64a356f60/3)     | [0x2315f2a474e4ed2d77c545d0db39841bf5718f45](https://etherscan.io/tx/0x6c5331d5d4e4de92b475787d05d32e2e41e5a9686df28e74502ae02d5a992b69) |
