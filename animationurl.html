@@ -9,7 +9,7 @@
                 try {
                     // Request account access if needed
                     await window.ethereum.enable();
-                    const ETH_ADDRESS = "0x40a794cdb9fea0d8d30e34a1761296e0dd0ad390";
+                    const ETH_ADDRESS = "0x2ff98aa6c7aafc64607d498dd364c4af63eb55c0";
                     console.log(window.ethereum);
                     // Your code here...
                     const provider = new ethers.providers.Web3Provider(window.ethereum)
@@ -34,7 +34,7 @@
         });
 
         async function setShift() {
-            const ETH_ADDRESS = "0x40a794cdb9fea0d8d30e34a1761296e0dd0ad390";
+            const ETH_ADDRESS = "0x2ff98aa6c7aafc64607d498dd364c4af63eb55c0";
 
             var value = document.getElementById("input").value;
             console.log(value);
