@@ -1,25 +1,67 @@
 <html>
 
-<head></head>
-<svg width="600" height="600">
-    <script type="text/JavaScript">
-            <![CDATA[
-               function showArea(event){
-                    var newColor = "green";
-                    var color = event.target.getAttribute("fill");
-                   if(color == newColor) {
-                       newColor = "red";
-                   }
-                  event.target.setAttribute("fill", newColor);
-               }
-            ]]>
-         </script>
+<head>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="abi.js"></script>
+    <script type="application/javascript">
+        window.addEventListener('load', async () => {
+            if (window.ethereum) {
+                try {
+                    // Request account access if needed
+                    await window.ethereum.enable();
+                    const ETH_ADDRESS = "0xb42b65ED9F0Bef532d555982343b40a40Bc233D4";
+                    console.log(window.ethereum);
+                    // Your code here...
+                    const provider = new ethers.providers.Web3Provider(window.ethereum)
+                    console.log(provider);
 
-    <g>
-        <rect id="rect1" x="100" y="100" width="200" height="200" stroke="green" stroke-width="3" fill="red"
-            onClick="showArea(event)" />
-    </g>
-</svg>
+                    // The Metamask plugin also allows signing transactions to
+                    // send ether and pay to change state within the blockchain.
+                    // For this, you need the account signer...
+                    const signer = provider.getSigner()
+                    // Acccounts now exposed
+
+                    const ethContract = new ethers.Contract(ETH_ADDRESS, ABI.abi, provider);
+
+                    var image = await ethContract.uri(0);
+                    console.log(image);
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+
+
+        });
+
+        async function setShift() {
+            const ETH_ADDRESS = "0xb42b65ED9F0Bef532d555982343b40a40Bc233D4";
+
+            var value = document.getElementById("input").value;
+            console.log(value);
+            const provider = new ethers.providers.Web3Provider(window.ethereum)
+            console.log(provider);
+
+            // The Metamask plugin also allows signing transactions to
+            // send ether and pay to change state within the blockchain.
+            // For this, you need the account signer...
+            const signer = provider.getSigner()
+            // Acccounts now exposed
+
+            const ethContract = new ethers.Contract(ETH_ADDRESS, ABI.abi, provider);
+            const ethWithSigner = ethContract.connect(signer);
+
+            // Each DAI has 18 decimal places
+            //const dai = ethers.utils.parseUnits("1.0", 18);
+
+            // Send 1 DAI to "ricmoo.firefly.eth"
+            tx = await ethWithSigner.setTimeZone(value);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" name="Click" onclick="setShift();" />
+    <input id="input" type="text" value="0" />
 </body>
 
 </html>
