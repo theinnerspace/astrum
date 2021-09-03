@@ -5,9 +5,12 @@
     <script type="text/JavaScript">
             <![CDATA[
                function showArea(event){
-                  var width = parseFloat(event.target.getAttributeNS(null,"width"));
-                  var height = parseFloat(event.target.getAttributeNS(null,"height"));
-                  alert("Area of the rectangle is: " +width +"x"+ height);
+                    var newColor = "green";
+                    var color = event.target.getAttribute("fill");
+                   if(color == newColor) {
+                       newColor = "red";
+                   }
+                  event.target.setAttribute("fill", newColor);
                }
             ]]>
          </script>
